@@ -1,0 +1,19 @@
+
+<div class="card">
+    <h5>Add Food items :</h5>
+    <div class="p-field p-grid">
+        <label for="firstName" class="p-col-fixed" style="width:100px">Name</label>
+        <div class="p-col">
+            <input id="firstName" type="text" pInputText [(ngModel)]="firstName"> 
+        </div>
+    </div>
+    <div class="p-field p-grid">
+        <label for="lastName" class="p-col-fixed" style="width:100px">Code name</label>
+        <div class="p-col">
+            <input id="lastName" type="text" pInputText [(ngModel)]="lastName"> 
+        </div>
+    </div>
+</div> 
+
+<button pButton type="button" label="Click" (click)="handleClick($event)"></button>
+
